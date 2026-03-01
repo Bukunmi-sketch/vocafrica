@@ -49,21 +49,7 @@ function MainApp() {
             }
           />
 
-          {/* <Route
-            path="/auth/signin"
-            element={
-              <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
-                <PageTitle title="Signin | Alehra" />
-                <SignIn />
-              </GoogleReCaptchaProvider>
-            }
-          /> */}
-
-          {/* ================= ONBOARDING ================= */}
-    
-
-          {/* ================= ADMIN ================= */}
-
+          
            <Route
             path="/admin/dashboard"
             element={
