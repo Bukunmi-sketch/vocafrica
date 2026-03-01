@@ -1,0 +1,4 @@
+"test": "mocha -r ts-node/register \"test/**/*.test.ts\""
+
+
+"test": "ts-mocha --type-check -p tsconfig.json src/ test/**/*.test.ts test/*.test.ts -- --exit"

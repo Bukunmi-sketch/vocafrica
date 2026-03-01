@@ -1,0 +1,2 @@
+# Ensure husky hook scripts always use LF (fixes Windows CRLF breaking shebang)
+.husky/* text eol=lf

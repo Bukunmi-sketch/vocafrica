@@ -1,0 +1,5 @@
+{
+  "extension": ["ts","tsx"],
+  "loader": "ts-node/esm",
+  "require": "ts-node/register"
+}

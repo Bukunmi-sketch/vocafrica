@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+hook_dir="$(dirname -- "$0")"
+[ -f "$hook_dir/_/husky.sh" ] && . "$hook_dir/_/husky.sh"
+
+npm run precommit
