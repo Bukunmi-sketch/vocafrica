@@ -39,15 +39,15 @@ function MainApp() {
       <SocketProvider>
         <Routes>
           {/* ================= AUTH ================= */}
-          {/* <Route
+          <Route
             index
             element={
               <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
-                <PageTitle title="Alehra" />
-                <SignIn />
+              
+                <LoginPage />
               </GoogleReCaptchaProvider>
             }
-          /> */}
+          />
 
           {/* <Route
             path="/auth/signin"
